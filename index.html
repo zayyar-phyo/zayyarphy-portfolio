@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Zay Yar Phyo | Aspiring Software Engineer</title>
+    <meta name="title" content="Zay Yar Phyo | Aspiring Software Engineer">
+    <meta name="description" content="Aspiring Software Engineer studying AI Systems Development in Japan. Skilled in Web Development, Python, Laravel, and Software Engineering.">
+    <meta name="keywords" content="Zay Yar Phyo, Software Engineer, Web Developer, Python, Laravel, Japan, AI Systems Development, Portfolio, JLPT N2, 神戸電子">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zayyarphyo.com/">
+    <meta property="og:site_name" content="ZayYarPhyo Portfolio">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="Zay Yar Phyo">
+    <meta property="og:description" content="Aspiring Software Engineer | 27卒 神戸電子 AIシステム開発 | Python, Django | JLPT N2 | Studying Computer Science">
+    <meta property="og:image" content="/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://zayyarphyo.com/">
+    <meta property="twitter:title" content="Zay Yar Phyo">
+    <meta property="twitter:description" content="Aspiring Software Engineer | 27卒 神戸電子 AIシステム開発 | Python, Django | JLPT N2 | Studying Computer Science">
+    <meta property="twitter:image" content="/og-image.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-900 text-slate-50 antialiased font-sans flex flex-col min-h-screen">
+    <div id="root" class="flex-grow"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+      // Automatically configure the canonical URL based on location
+      const canonicalTag = document.createElement('link');
+      canonicalTag.rel = 'canonical';
+      canonicalTag.href = window.location.origin;
+      document.head.appendChild(canonicalTag);
+
+      // Update OG/Twitter URLs to use actual origin
+      document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.origin);
+      document.querySelector('meta[property="twitter:url"]').setAttribute('content', window.location.origin);
+      document.querySelector('meta[property="og:image"]').setAttribute('content', window.location.origin + '/og-image.png');
+      document.querySelector('meta[property="twitter:image"]').setAttribute('content', window.location.origin + '/og-image.png');
+    </script>
+  </body>
+</html>
+
