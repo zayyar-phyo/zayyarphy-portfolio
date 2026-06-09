@@ -4,6 +4,8 @@ export const skills: Skill[] = [
   { name: 'HTML', category: 'Frontend', level: 90 },
   { name: 'CSS', category: 'Frontend', level: 85 },
   { name: 'JavaScript', category: 'Frontend', level: 80 },
+  { name: 'React', category: 'Frontend', level: 75 },
+  { name: 'Tailwind CSS', category: 'Frontend', level: 85 },
   
   { name: 'PHP', category: 'Backend', level: 85 },
   { name: 'Laravel', category: 'Backend', level: 80 },
