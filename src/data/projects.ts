@@ -16,7 +16,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Blog Post System',
-    description: 'Full-stack blogging platform allowing users to create, manage, and publish articles efficiently.',
+    description: 'Blog Post System This is a straightforward, functional blog application built with PHP and a MySQL database. It allows users to create, view, edit, and delete blog posts. The system also includes a simple tagging feature to categorize posts.',
     techStack: ['PHP', 'Laravel', 'MySQL'],
     features: [
       'Authentication',
