@@ -11,7 +11,7 @@ export const projects: Project[] = [
       'Community participation',
       'Responsive UI'
     ],
-    githubUrl: 'https://github.com/ZayYarPhyo',
+    githubUrl: 'https://github.com/zayyar-phyo',
     imageUrl: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
@@ -24,7 +24,7 @@ export const projects: Project[] = [
       'Category management',
       'Responsive dashboard'
     ],
-    githubUrl: 'https://github.com/ZayYarPhyo',
+    githubUrl: 'https://github.com/zayyar-phyo',
     imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
       'Favorites tracking',
       'Responsive interface'
     ],
-    githubUrl: 'https://github.com/ZayYarPhyo',
+    githubUrl: 'https://github.com/zayyar-phyo',
     imageUrl: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   }
 ];

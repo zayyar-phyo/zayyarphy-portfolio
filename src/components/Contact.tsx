@@ -49,27 +49,27 @@ export default function Contact() {
               </p>
               
               <div className="space-y-6">
-                <a href="mailto:zyp.yar.phy@gmail.com" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
+                <a href="mailto:kd1425172@st.kobedenshi.ac.jp" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-700/50 rounded-xl flex items-center justify-center group-hover:bg-sky-500/10 transition-colors">
                     <Mail size={20} />
                   </div>
                   <div>
                     <span className="block text-sm text-slate-500 font-medium">Email</span>
-                    <span className="font-medium">zyp.yar.phy@gmail.com</span>
+                    <span className="font-medium">kd1425172@st.kobedenshi.ac.jp </span>
                   </div>
                 </a>
                 
-                <a href="https://github.com/ZayYarPhyo" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
+                <a href="https://github.com/zayyar-phyo" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-700/50 rounded-xl flex items-center justify-center group-hover:bg-sky-500/10 transition-colors">
                     <Github size={20} />
                   </div>
                   <div>
                     <span className="block text-sm text-slate-500 font-medium">GitHub</span>
-                    <span className="font-medium">github.com/ZayYarPhyo</span>
+                    <span className="font-medium">github.com/zayyar-phyo</span>
                   </div>
                 </a>
                 
-                <a href="https://linkedin.com/in/zayyarphyo" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
+                <a href="www.linkedin.com/in/zay-yar-phyo-77b7541a3" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-700/50 rounded-xl flex items-center justify-center group-hover:bg-sky-500/10 transition-colors">
                     <Linkedin size={20} />
                   </div>
