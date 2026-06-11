@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
                 </a>
                 
-                <a href="www.linkedin.com/in/zay-yar-phyo-77b7541a3" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
+                <a href="https://www.linkedin.com/in/zay-yar-phyo-77b7541a3/" target="_blank" rel="noreferrer" className="flex items-center space-x-4 text-slate-300 hover:text-sky-400 transition-colors group">
                   <div className="w-12 h-12 bg-slate-700/50 rounded-xl flex items-center justify-center group-hover:bg-sky-500/10 transition-colors">
                     <Linkedin size={20} />
                   </div>
