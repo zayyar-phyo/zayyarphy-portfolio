@@ -2,27 +2,26 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
-    title: 'Recycle Web Platform',
-    description: 'Community-based recycling platform that promotes sustainable waste management and encourages users to recycle through digital engagement.',
-    techStack: ['Laravel', 'PHP', 'SQLite', 'Tailwind CSS'],
+    title: 'kindred_space',
+    description: 'KindredSpace is a sharing platform designed for local communities. The goal of this project is to deepen bonds among residents by exchanging goods through "offering" and "requesting" without using money. ',
+    techStack: ['Python', 'Django', 'SQLite'],
     features: [
       'User authentication',
-      'Recycling item management',
+      'Item management',
       'Community participation',
       'Responsive UI'
     ],
     githubUrl: 'https://github.com/zayyar-phyo',
-    imageUrl: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    imageUrl: '/rwp-cover.png'
   },
   {
     title: 'Blog Post System',
     description: 'Full-stack blogging platform allowing users to create, manage, and publish articles efficiently.',
-    techStack: ['Laravel', 'PHP', 'SQLite'],
+    techStack: ['PHP', 'Laravel', 'MySQL'],
     features: [
       'Authentication',
       'CRUD operations',
-      'Category management',
-      'Responsive dashboard'
+      'Category management'
     ],
     githubUrl: 'https://github.com/zayyar-phyo',
     imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
@@ -30,7 +29,7 @@ export const projects: Project[] = [
   {
     title: 'My Personal Movies Dashboard',
     description: 'Personal movie tracking dashboard for managing watchlists, favorites, and movie information.',
-    techStack: ['Python', 'SQLite', 'JavaScript'],
+    techStack: ['HTML5', 'CSS3', 'JavaScript'],
     features: [
       'Movie management',
       'Search functionality',
